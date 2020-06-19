@@ -1,0 +1,217 @@
+body{
+	margin:0;
+	padding: 0;
+	background-image: url('../images/bac2.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+header::after{
+	content: '';
+	display: table;
+	clear: both;
+
+}
+.logo{
+	float: left;
+	padding-top: 25px;
+	padding-left: 0px;
+	margin-left: 0px;
+
+}
+.search-query{
+	background-image: url('../images/pic1.jpg');
+	border: 2px solid white;
+    border-radius: 24px;
+    height: 38px;
+    width: 35%;
+    text-align: center;
+    font-weight: bold;
+    outline: none;
+    border: 0;
+    color: white;
+}
+.search-query:hover {
+  border: none;
+  box-shadow: 0 0 13px rgba(255, 225, 225, 1),;
+}
+::placeholder{
+	color: grey;
+}
+
+.search{
+	float: left;
+    padding-top: 20px;
+    padding-left: 40px;
+    width: 40%;
+
+}
+.container nav{
+	float: right;
+	margin-right: 20px;
+	
+}
+.container{
+background-color: black;
+}
+header{
+	background-image: url('../images/image.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	margin-bottom: 20px;
+	margin-top: 0px;
+	font-size: 16px;
+	height: 300px;
+	color: black;
+}
+
+.container nav ul{
+	margin: 0;
+	padding: 0; 
+	list-style: none;
+	text-decoration: unset;
+	text-decoration-color: red;
+	
+	
+}
+.container nav li{
+display: inline-block;
+font-size: 16px;
+padding-top: 25px;
+margin-left: 70px;
+text-decoration: unset;
+text-transform: uppercase;
+text-decoration-color: red;
+}
+
+header a{
+	color: silver;
+	font-weight: bold;
+	text-decoration: unset;
+}
+ a:hover{
+	color: black;
+}
+
+.list{
+	float: left;
+	background-image: url('../images/list.jpg');
+	margin-left: 10px;
+	height: 600%;
+	width: 55.3%;
+}
+.list li{
+	color: white;
+	font-size: 20px;
+	line-height: 1.6em;
+}
+h1{
+	text-align: center;
+	font-size: 40px;
+	padding-top: 20px;
+	border-top: 2px solid blue;
+	border-bottom: 2px solid blue;
+	color: white;
+}
+.news{
+	background-image: url('../images/news.jpg');
+    margin-left: 890px;
+    height: 720px;
+    margin-right: 70px;
+    width: 33.3%;
+}
+.news li{
+	color: white;
+}
+h2{
+	margin-top: 20px;
+	text-align: center;
+	font-size: 40px;
+	padding-top: 20px;
+	border-top: 4px solid blue;
+	border-bottom: 4px solid blue;
+	color: white;
+
+}
+.news a{
+	color: white;
+	font-size: 28px;
+	line-height: 1.6em;
+	text-decoration: unset;
+}
+.news a:hover{
+	color: red;
+}
+.intro{
+	position: absolute;
+	margin-top: 0px;
+	background-color: black;
+	color: white;
+	text-align: center;
+	font-size: 10px;
+
+}
+.heading{
+
+	border-top: 2px solid blue;
+	border-bottom: 2px solid blue;
+	text-align: center;
+	margin-top: 50px;
+	font-weight: bold;
+}
+section{
+	
+}
+.img{
+	margin-left: 10px;
+	width: 400px;
+	height: 300px;
+
+}
+table{
+	
+	color: white;
+	margin-top: 50px;
+}
+.desc{
+	background-color: black;
+	font-size: 20px;
+	height: 160px;
+	width: 10%;
+	border: 2px solid red
+
+
+}
+.desc a{
+	color: purple;
+	text-decoration: underline;
+	font-size: 15px;
+}
+footer{
+	text-align: center;
+    background-image: url('../images/cosmos.png');
+	color: white;
+	margin-top: 100px;
+}
+footer li{
+display: inline-block;
+font-size: 16px;
+margin-left: 30px;
+text-decoration: unset;
+text-transform: uppercase;
+
+}
+.img2{
+	height: 40px;
+	width: 40px;
+}
+.social {
+	padding-bottom:2px;
+	font-size: 20px;
+
+}
+footer a{
+	color: white;
+}
